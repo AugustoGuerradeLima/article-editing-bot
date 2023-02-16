@@ -1,12 +1,12 @@
 import pyautogui
 from time import sleep
 
-dirname = "C:\\sourcecode.txt"#just an exemple
+dirwork = "C:\\workingnow.txt"#just an exemple
 
-########################################################################1
-def takeSourceCode():
+########################################################################
+def takeWorkCode():
     pyautogui.press('win')
-    pyautogui.write(dirname)
+    pyautogui.write(dirwork)
     pyautogui.press('enter')
     pyautogui.click(1314,511,duration=1)#generic
     pyautogui.hotkey('ctrl','a')
@@ -14,4 +14,4 @@ def takeSourceCode():
     pyautogui.hotkey('alt','f4')
 
 ########################################################################main
-takeSourceCode()
+takeWorkCode()
