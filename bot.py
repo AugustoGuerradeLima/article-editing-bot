@@ -1,7 +1,7 @@
 import pyautogui
 from time import sleep
 
-dirname = "C:\\Users\\Augus\\Desktop\\psi\\sourcecode.txt"
+dirname = "C:\\sourcecode.txt"#just an exemple
 
 ########################################################################1
 def takeSourceCode():
