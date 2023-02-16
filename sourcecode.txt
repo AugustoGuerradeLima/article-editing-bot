@@ -1,0 +1,47 @@
+<p style="text-align: center;"><strong></strong></p>
+<p style="text-align:center;"></p>
+
+<table style="width: 70%; height: 100%; margin-left: auto; margin-right: auto;">
+    <tbody>
+        <tr>
+            <td style="text-align: center;">
+                <p style="text-align: center;"><span style="font-size: 24pt; color: #000000;"><strong><span class="TextRun SCXW250505846 BCX8" lang="PT-BR" style="font-family: 'book antiqua', palatino, serif;" xml:lang="PT-BR" data-contrast="auto"><span class="NormalTextRun SCXW250505846 BCX8">title</span></span></strong></span></p>
+                <p style="text-align: right;"><span style="color: #000000;"><span style="font-family:'book antiqua', palatino, serif; font-size: 12pt;"><strong>author</strong> <br /></span><span style="font-family: 'book antiqua', palatino, serif; font-size: 12pt;">info</span></span><span data-contrast="auto"></span><span data-ccp-props="{&quot;335551550&quot;:3,&quot;335551620&quot;:3,&quot;335559685&quot;:2268,&quot;335559738&quot;:120}"> </span></p>
+            </td>
+                </tr>
+                <tr>
+            <td style="text-align: center;">
+                <p><span style="font-size: 12pt; color: #000000;"><img src="#" width="738" /><br /><span style="font-size: 8pt; color: #808080;">imgname</span></span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<table style="width: 70%; height: 100%; margin-left: auto; margin-right: auto;" cellspacing="10" cellpadding="10">
+    <tbody>
+        <tr>
+            <td style="border-color: #f4f7dc; background-color: #f4f7dc; width: 51%;">
+                <p style="text-align: justify;"><span style="color: #000000; font-family: 'book antiqua', palatino, serif; font-size: 12pt;"><strong>Resumo: </strong>ab1</span></p>
+                <p style="text-align: justify;"><span style="color: #000000; font-family: 'book antiqua', palatino, serif; font-size: 12pt;"><b>Palavras-chave: </b>key1</span></p>
+                <p style="text-align: justify;"><span style="color: #000000; font-family: 'book antiqua', palatino, serif; font-size: 12pt;"><b>title2<br /><span style="color: #000000; font-family: 'book antiqua', palatino, serif; font-size: 12pt;"><b>Abstract: </b>ab2</span></p>
+                <p style="text-align: justify;"><span style="color: #000000; font-family: 'book antiqua', palatino, serif; font-size: 12pt;"><b>Keywords: </b>key2</span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+</table>
+    <table style="height: 100%; margin-left: auto; margin-right: auto;" width="70%">
+        <tbody>
+            <tr>
+                <td style="width: 396.733px; text-align: center;">
+                    <p style="text-align: justify;"><span style="font-size: 12pt; font-family: 'book antiqua', palatino, serif;"></span></p>
+                    <p style="text-align: justify;"><span style="font-size: 12pt; font-family: 'book antiqua', palatino, serif;">content</span></p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 396.733px; text-align: center;"> </td>
+            </tr>
+        </tbody>
+    </table>
+<p><span style="font-size: 12pt; color: #000000;"> </span></p>
