@@ -1,23 +1,41 @@
+#document management
 import docx
 import json
-
-#open the arq .docx
+#open the document .docx
 doc = docx.Document('doc.docx')
 
-#put first paragraph on title
+#start the variables
+#title<-first paragraph
 title = doc.paragraphs[0].text
 
-#create an object JSON with title, info and content
+#info<-between the first paragraph and the word "Resumo"
+info = ''
+for para in doc.paragraphs[1:]:
+    if 'Resumo' in para.text:
+        break
+    else:
+        info += para.text
+
+#abstract<-between the words Resumo and Keywords
+abstract = ''
+found_resumo = False
+for para in doc.paragraphs:
+    if 'Resumo' in para.text:
+        found_resumo = True
+    elif 'Keywords' in para.text:
+        break
+    elif found_resumo:
+        abstract += para.text
+
+#create a JSON with the variables
 text = {
-    "title":title,
-    "info":"info",
-    "content":"content"
+    "title": title,
+    "info": info,
+    "abstract": abstract,
+    "key":"key",
+    "content": "content"
 }
 
-                                                                        #text zone
-
-#JSON for string
-text = json.dumps(text,indent=4)
-
-#Print the variable text on screen
-print(text)
+#test
+text_json = json.dumps(text, indent=4)
+print(text_json)
