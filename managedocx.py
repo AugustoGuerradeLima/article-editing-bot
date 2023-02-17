@@ -30,9 +30,12 @@ for para in doc.paragraphs:
 #create a JSON with the variables
 text = {
     "title": title,
+    "author":"author"
     "info": info,
     "abstract": abstract,
-    "key":"key",
+    "key1":"key1"
+    "entitle":"entitle"
+    "key2":"key2",
     "content": "content"
 }
 
